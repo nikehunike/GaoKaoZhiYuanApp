@@ -11,7 +11,7 @@
     <com.qlh.dropdownmenu.DropDownMenu
         android:id="@+id/dropDownMenu"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:ddIsUsePopMenuHeightPercent="true"
         app:dddividerColor="@color/divider"
         app:ddmaskColor="@color/mask_color"
@@ -24,5 +24,13 @@
         app:ddtextUnselectedColor="@color/drop_down_unselected"
         app:ddunderlineColor="@color/divider" />
 
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="专业分数"
+        android:textSize="18sp" />
 
 </LinearLayout>
